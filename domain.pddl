@@ -21,3 +21,9 @@
     :precondition (and (at ?r ?loc) (in ?obj ?loc))
     :effect (has ?r ?obj)
   )
+
+  (:action feed-child
+    :parameters (?r - robot ?p - person)
+    :precondition (and (has ?r food) (hungry ?p))
+    :effect (not (hungry ?p))
+  )
