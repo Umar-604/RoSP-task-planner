@@ -15,3 +15,9 @@
     :precondition (at ?r ?from)
     :effect (and (not (at ?r ?from)) (at ?r ?to))
   )
+
+  (:action pick-up
+    :parameters (?r - robot ?obj - object ?loc - room)
+    :precondition (and (at ?r ?loc) (in ?obj ?loc))
+    :effect (has ?r ?obj)
+  )
