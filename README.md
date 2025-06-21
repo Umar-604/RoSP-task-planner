@@ -12,8 +12,11 @@ This repository contains PDDL files and documentation for modeling a task planni
 
 ---
 
-## 📂 Repository Structure
-rosp-task-planner/
-├── domain.pddl # PDDL domain file
-├── problem.pddl # PDDL problem file
-├── README.md # Project description
+## 🚀 How to Use
+
+1. Open [**PDDL Editor**](https://editor.planning.domains/)
+2. Upload both `domain.pddl` and `problem.pddl`
+3. Click **"Validate & Plan"** to generate a plan
+4. Review the resulting action sequence
+
+---
