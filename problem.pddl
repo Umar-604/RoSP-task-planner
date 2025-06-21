@@ -14,3 +14,9 @@
     (in food kitchen)
     (hungry child1)
   )
+  (:goal (and
+    (not (hungry child1))
+    (clean livingroom)
+    (homework-done child1)
+  ))
+)
