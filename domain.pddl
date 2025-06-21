@@ -1,6 +1,7 @@
 (define (domain rosp-support)
   (:requirements :strips :typing)
   (:types room object robot person)
+
   (:predicates
     (at ?r - robot ?loc - room)
     (clean ?loc - room)
