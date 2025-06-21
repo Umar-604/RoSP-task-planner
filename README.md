@@ -20,3 +20,27 @@ This repository contains PDDL files and documentation for modeling a task planni
 4. Review the resulting action sequence
 
 ---
+
+## ✅ Example Scenario
+
+RoSP helps with:
+- Preparing meals
+- Cleaning rooms
+- Assisting children
+- Managing schedules
+
+The PDDL files encode actions such as `prepare-breakfast`, `clean-room`, and `assist-homework`, allowing RoSP to create efficient action sequences based on household goals.
+
+---
+
+## 🧾 License
+
+This project is for academic purposes as part of an AI Planning & Reasoning coursework.
+
+---
+
+## 📬 Contact
+
+**Author:** Umar Tariq  
+**Institution:** Ghulam Ishaq Khan Institute of Engineering Sciences and Technology  
+**Course:** AI Planning & Reasoning  
