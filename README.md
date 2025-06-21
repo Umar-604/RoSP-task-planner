@@ -13,4 +13,7 @@ This repository contains PDDL files and documentation for modeling a task planni
 ---
 
 ## 📂 Repository Structure
-
+rosp-task-planner/
+├── domain.pddl # PDDL domain file
+├── problem.pddl # PDDL problem file
+├── README.md # Project description
