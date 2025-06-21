@@ -7,6 +7,7 @@
     vacuum book food - object
     child1 - person
   )
+
   (:init
     (at robot1 kitchen)
     (in vacuum livingroom)
@@ -14,6 +15,7 @@
     (in food kitchen)
     (hungry child1)
   )
+
   (:goal (and
     (not (hungry child1))
     (clean livingroom)
